@@ -1,3 +1,38 @@
+let rock = document.getElementById('rock');
+let paper = document.getElementById('paper');
+let scissors = document.getElementById('scissors');
+
+rock = "rock";
+paper = "paper";
+scissors = "scissors"
+
+
+function playRound(){
+
+    computerPlay();
+}
+
+let compSelect = function computerPlay(){
+   
+    const randomArray = ["rock" , " paper" ," scissors"];
+    console.log (randomArray[(Math.random() * 3)]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 let user = prompt("enter selection").toLowerCase();
 if(user != "paper" && user != "rock" && user != "scissors" ){
@@ -45,4 +80,5 @@ function playRound(user, computerSelection) {
 console.log(playRound(user, computerSelection));
 
 
+*/
 
